@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style/login.css" type="text/css"/>
+<title>ajax chat</title>
+</head>
+<body>
+<form action="index.php" method="post" name="login">
+<h1 id="title">Ajax Chat</h1>
+<div id="item">
+<label id="name">your name : </label>
+<input type="text" name="name"/>
+<input type="submit" value="login"/>
+</div>
+</form>
+<script type="text/javascript">
+	window.onload = function(){
+		document.login.name.focus();
+	};
+</script>
+</body>
+</html>
